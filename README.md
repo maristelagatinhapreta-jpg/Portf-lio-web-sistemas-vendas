@@ -39,3 +39,24 @@ Maristela Costa
 📍 Curitiba - PR, Brasil
 
 🔗 GitHub: https://github.com/maristelagatinhapreta-jpg
+# 🛒 Portfólio Web Sistemas de Vendas
+
+## 📖 Sobre o Projeto
+Projeto criado para praticar conceitos de desenvolvimento web moderno, versionamento de código e utilização da plataforma **[GitHub](https://github.com)**.
+
+## 🎯 Objetivos
+* Aprender Git e [GitHub](https://github.com)
+* Desenvolver páginas web responsivas
+* Organizar projetos de software
+* Praticar lógica de programação em JavaScript
+
+## 🚀 Tecnologias Utilizadas
+* HTML5 Semântico
+* CSS3 Moderno
+* JavaScript
+* Git & [GitHub](https://github.com)
+
+## ✅ Funcionalidades
+* Cadastro e listagem interativa de produtos
+* Validação de formulários
+* Botão de exclusão dinâmica de itens
