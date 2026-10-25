@@ -3,33 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Web - Sistemas de Vendas</title>
+    <title>Sistema de Vendas | Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Ícones do FontAwesome para dar um toque profissional -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>🛒 Sistemas de Vendas</h1>
-        <p>Desenvolvido por Maristela Costa</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1><i class="fa-solid fa-store"></i> Sistema de Vendas</h1>
+            <p>Plataforma web desenvolvida para otimizar a gestão comercial e praticar conceitos avançados de Front-end.</p>
+            <div class="hero-buttons">
+                <a href="#funcionalidades" class="btn primary">Ver Funcionalidades</a>
+                <a href="https://github.com/maristelagatinhapreta-jpg" target="_blank" class="btn secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
     </header>
 
     <main class="container">
-        <section class="card">
-            <h2>Sobre o Projeto</h2>
-            <p>Projeto criado para praticar conceitos de desenvolvimento web, HTML5, CSS3 e versionamento de código com Git e GitHub[cite: 3].</p>
+        <section id="sobre" class="card">
+            <h2><i class="fa-solid fa-circle-info"></i> Sobre o Projeto</h2>
+            <p>Este projeto foi criado para consolidar conhecimentos em desenvolvimento web moderno, estruturação de layouts responsivos e versionamento de código utilizando boas práticas com Git e GitHub[cite: 2].</p>
+        </section>
+
+        <section id="funcionalidades" class="grid-section">
+            <div class="card feature-card">
+                <i class="fa-solid fa-cart-shopping icon"></i>
+                <h3>Gestão de Vendas</h3>
+                <p>Controle de transações e fluxo de pedidos de maneira intuitiva e rápida.</p>
+            </div>
+            <div class="card feature-card">
+                <i class="fa-solid fa-users icon"></i>
+                <h3>Clientes e Produtos</h3>
+                <p>Organização estruturada de cadastros para fácil consulta e gerenciamento.</p>
+            </div>
+            <div class="card feature-card">
+                <i class="fa-solid fa-chart-line icon"></i>
+                <h3>Interface Moderna</h3>
+                <p>Design limpo, responsivo e adaptado para diferentes tamanhos de tela.</p>
+            </div>
         </section>
 
         <section class="card">
-            <h2>Funcionalidades</h2>
-            <ul>
-                <li>Estruturação de páginas web modernas[cite: 3]</li>
-                <li>Apresentação de sistemas de vendas[cite: 3]</li>
-                <li>Prática de versionamento e boas práticas[cite: 3]</li>
+            <h2><i class="fa-solid fa-code"></i> Tecnologias Utilizadas</h2>
+            <ul class="tech-list">
+                <li><i class="fa-brands fa-html5" style="color: #e34f26;"></i> HTML5 Semântico</li>
+                <li><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i> CSS3 Moderno (Flexbox / Grid)</li>
+                <li><i class="fa-brands fa-git-alt" style="color: #f05032;"></i> Git & GitHub</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Maristela Costa - Curitiba, PR</p>
+        <p>&copy; 2026 Maristela Costa — Curitiba, PR, Brasil 📍</p>
     </footer>
 </body>
 </html>
